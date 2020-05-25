@@ -29,7 +29,7 @@ end
 end
 "Sorry, that emoticon was not found"
 end
- binding.pry
+ #binding.pry
   
   
   
