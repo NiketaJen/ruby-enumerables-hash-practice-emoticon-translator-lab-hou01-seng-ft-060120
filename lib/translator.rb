@@ -24,7 +24,7 @@ def get_japanese_emoticon(file_path, emoticon)
    end
    #binding.pry
   if emoticon == nil
-    message = "Sorry, that emotion was not found"
+   return message = "Sorry, that emotion was not found"
 end
 end
 end
