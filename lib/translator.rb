@@ -16,8 +16,7 @@ require 'pry'
 
 def get_japanese_emoticon(file_path, emoticon)
   library = load_library(file_path)
-  emoticon= nil
-   
+ 
  library.each do |meaning, symbols|
   
   if emoticon == symbols[:english]
