@@ -23,7 +23,7 @@ def get_japanese_emoticon(file_path, emoticon)
   if emoticon == symbols[:english]
    return symbols[:japanese] 
    end
-   
+   binding.pry
   if emoticon == nil
     message = "Sorry, that emotion was not found"
 end
