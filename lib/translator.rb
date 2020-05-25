@@ -12,7 +12,6 @@ emo_library
 end
 
 
-require 'pry'
 
 def get_japanese_emoticon(file_path, emoticon)
   library = load_library(file_path)
@@ -22,16 +21,11 @@ def get_japanese_emoticon(file_path, emoticon)
   if emoticon == symbols[:english]
    return symbols[:japanese] 
  
- 
-   #return message = "Sorry, that emoticon was not found"
 end
-
 end
 "Sorry, that emoticon was not found"
 end
- #binding.pry
-  
-  
+
   
 
 
