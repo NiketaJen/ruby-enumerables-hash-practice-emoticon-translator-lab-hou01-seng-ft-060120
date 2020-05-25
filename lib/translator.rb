@@ -21,9 +21,7 @@ def get_japanese_emoticon(file_path, emoticon)
   
   if emoticon == symbols[:english]
    return symbols[:japanese] 
-   end
-   #binding.pry
-  if emoticon == nil
+ else
    return message = "Sorry, that emotion was not found"
 end
 end
@@ -32,30 +30,6 @@ end
   
   
   
-  
-
-
-
-
-
-#   library = load_library(file_path)
- 
-#   response = library.values.find do |value|
-#     library[key][:english][value]== eng_emoticon
-#   end
-   
-#   if response
-      #response
-#else
-#     "Sorry, that emoticon was not found"
-#   end
-  
-# end 
-
-
-  
-  
-
 
 
 def get_english_meaning(file_path, emoticon)
